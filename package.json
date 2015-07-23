@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Write Node packages in Rust.",
   "main": "index.js",
+  "engines": {
+    "node": "0.12.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/rust-bridge/node.git"
   },
+  "contributors": [
+    "Steve Klabnik <steve@steveklabnik.com> (http://www.steveklabnik.com)",
+    "Ashley Williams <ashley666ashley@gmail.com> (http://ashleygwilliams.github.io)"
+  ],
   "keywords": [
     "node",
     "rust",
