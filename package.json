@@ -7,7 +7,7 @@
     "node": "0.12.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/rust-bridge/node/issues"
   },
-  "homepage": "https://github.com/rust-bridge/node#readme"
+  "homepage": "https://github.com/rust-bridge/node#readme",
+  "dependencies": {
+    "ffi": "^1.3.1",
+    "ref": "^1.0.2",
+    "ref-struct": "^1.0.1"
+  }
 }
